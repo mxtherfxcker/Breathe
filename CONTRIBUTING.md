@@ -1,10 +1,10 @@
-﻿# Contributing
+# Contributing
 
-Thanks for your interest in Dreivy Engine.
+**Thanks for your interest in [this project](https://github.com/mxtherfxcker/Breathe/)!**
 
-This project is an experimental and learning-focused engine.
-Contributions are welcome, including bug reports, suggestions,
-and architectural discussions.
+> [!NOTE]
+> This project is an experimental and learning-focused engine, now with additional improvements.
+> Contributions are welcome, including bug reports, suggestions, and architectural discussions.
 
 ## What you can do
 
@@ -16,8 +16,8 @@ You are welcome to:
 
 ## Please keep in mind
 
-The project is under active development.
-Internal APIs and implementation details may change frequently.
+> [!IMPORTANT] 
+> Internal APIs and implementation details may change frequently.
 
 To keep development simple and fast, I may:
 - directly integrate your code instead of merging the PR
@@ -31,9 +31,7 @@ This helps avoid unnecessary merge complexity and keeps the codebase clean.
 When contributing, please follow these principles:
 
 - Code should be easy to understand, even for beginners
-- Avoid unnecessary abstractions or clever tricks
 - No hidden logic or magic behavior
-- Prefer explicit data flow
 - Keep functions small and focused
 - Comment *why*, not *what*
 
@@ -41,13 +39,12 @@ When contributing, please follow these principles:
   it is perfectly fine to keep it header-only
   (for example: `Time.h`, `TransformUtils.h`).
 
-- Header-only code is preferred when it improves readability,
-  not when it hides complexity.
-
-If a piece of code cannot be easily understood by someone new to the project,
-it probably does not belong here.
+> [!IMPORTANT] 
+> - Header-only code is preferred when it improves readability,
+> not when it hides complexity.
 
 ## Discussion
 
-If you are unsure about a change, feel free to open an issue first
-to discuss the idea before implementing it.
+> [!TIP]
+> If you are unsure about a change, feel free to open an issue first
+> to discuss the idea before implementing it.
